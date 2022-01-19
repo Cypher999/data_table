@@ -1,0 +1,109 @@
+@media only screen and (max-width:600px){
+  .data-table .table-container{
+    width: 100%;
+    overflow: auto;
+  }
+  .data-table .limit-container{
+    display: inline-block;
+    width: 100%;
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+  .data-table .search-container{
+    display: inline-block;
+    width: 100%;
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+  .data-table .table-container table th,.data-table table td{
+    border:1px solid black;
+    padding:10px;
+  }
+  .prev, .cur_page, .next{
+    display: inline;
+  }
+}
+
+@media only screen and (min-width:600px){
+  .data-table .table-container{
+    width: 100%;
+    overflow: auto;
+  }
+  .data-table .limit-container{
+    display: inline-block;
+    width: 100%;
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+  .data-table .search-container{
+    display: inline-block;
+    width: 100%;
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+  .data-table .table-container table th,.data-table table td{
+    border:1px solid black;
+    padding:10px;
+  }
+  .prev, .cur_page, .next{
+    display: inline;
+  }
+}
+
+@media only screen and (min-width:900px){
+  .data-table .table-container{
+    width: 100%;
+    overflow: auto;
+  }
+  .data-table .limit-container{
+    display: inline;
+    width: 50%;
+    margin-left:10px;
+    margin-right:10px;
+  }
+  .data-table .search-container{
+    display: inline;
+    width: 50%;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  .data-table .table-container table th,.data-table table td{
+    border:1px solid black;
+    padding:10px;
+  }
+  .prev, .cur_page, .next{
+    display: inline;
+  }
+}
+
+@media only screen and (min-width:1200px){
+  .data-table .table-container{
+    width: 100%;
+    overflow: auto;
+  }
+  .data-table .limit-container{
+    display: inline;
+    width: 50%;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  .data-table .search-container{
+    display: inline;
+    width: 50%;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  .data-table .table-container table th,.data-table table td{
+    border:1px solid black;
+    padding:10px;
+  }
+  .prev, .cur_page, .next{
+    display: inline;
+  }
+}
